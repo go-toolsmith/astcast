@@ -1,5 +1,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-toolsmith/astcast)](https://goreportcard.com/report/github.com/go-toolsmith/astcast)
 [![GoDoc](https://godoc.org/github.com/go-toolsmith/astcast?status.svg)](https://godoc.org/github.com/go-toolsmith/astcast)
+[![Build Status](https://travis-ci.org/go-toolsmith/astcast.svg?branch=master)](https://travis-ci.org/go-toolsmith/astcast)
 
 # astcast
 
