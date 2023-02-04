@@ -1,8 +1,10 @@
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-toolsmith/astcast)](https://goreportcard.com/report/github.com/go-toolsmith/astcast)
-[![GoDoc](https://godoc.org/github.com/go-toolsmith/astcast?status.svg)](https://godoc.org/github.com/go-toolsmith/astcast)
-[![Build Status](https://travis-ci.org/go-toolsmith/astcast.svg?branch=master)](https://travis-ci.org/go-toolsmith/astcast)
-
 # astcast
+
+[![build-img]][build-url]
+[![pkg-img]][pkg-url]
+[![reportcard-img]][reportcard-url]
+[![coverage-img]][coverage-url]
+[![version-img]][version-url]
 
 Package astcast wraps type assertion operations in such way that you don't have
 to worry about nil pointer results anymore.
@@ -85,3 +87,18 @@ func main() {
 	fmt.Printf("%T %s\n", bar, bar.Name)
 }
 ```
+
+## License
+
+[MIT License](LICENSE).
+
+[build-img]: https://github.com/go-toolsmith/astinfo/workflows/build/badge.svg
+[build-url]: https://github.com/go-toolsmith/astinfo/actions
+[pkg-img]: https://pkg.go.dev/badge/go-toolsmith/astinfo
+[pkg-url]: https://pkg.go.dev/github.com/go-toolsmith/astinfo
+[reportcard-img]: https://goreportcard.com/badge/go-toolsmith/astinfo
+[reportcard-url]: https://goreportcard.com/report/go-toolsmith/astinfo
+[coverage-img]: https://codecov.io/gh/go-toolsmith/astinfo/branch/main/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/go-toolsmith/astinfo
+[version-img]: https://img.shields.io/github/v/release/go-toolsmith/astinfo
+[version-url]: https://github.com/go-toolsmith/astinfo/releases
