@@ -11,8 +11,10 @@ to worry about nil pointer results anymore.
 
 ## Installation
 
+Go version 1.16+
+
 ```bash
-go get -v github.com/go-toolsmith/astcast
+go get github.com/go-toolsmith/astcast
 ```
 
 ## Example
@@ -92,13 +94,13 @@ func main() {
 
 [MIT License](LICENSE).
 
-[build-img]: https://github.com/go-toolsmith/astinfo/workflows/build/badge.svg
-[build-url]: https://github.com/go-toolsmith/astinfo/actions
-[pkg-img]: https://pkg.go.dev/badge/go-toolsmith/astinfo
-[pkg-url]: https://pkg.go.dev/github.com/go-toolsmith/astinfo
-[reportcard-img]: https://goreportcard.com/badge/go-toolsmith/astinfo
-[reportcard-url]: https://goreportcard.com/report/go-toolsmith/astinfo
-[coverage-img]: https://codecov.io/gh/go-toolsmith/astinfo/branch/main/graph/badge.svg
-[coverage-url]: https://codecov.io/gh/go-toolsmith/astinfo
-[version-img]: https://img.shields.io/github/v/release/go-toolsmith/astinfo
-[version-url]: https://github.com/go-toolsmith/astinfo/releases
+[build-img]: https://github.com/go-toolsmith/astcast/workflows/build/badge.svg
+[build-url]: https://github.com/go-toolsmith/astcast/actions
+[pkg-img]: https://pkg.go.dev/badge/go-toolsmith/astcast
+[pkg-url]: https://pkg.go.dev/github.com/go-toolsmith/astcast
+[reportcard-img]: https://goreportcard.com/badge/go-toolsmith/astcast
+[reportcard-url]: https://goreportcard.com/report/go-toolsmith/astcast
+[coverage-img]: https://codecov.io/gh/go-toolsmith/astcast/branch/main/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/go-toolsmith/astcast
+[version-img]: https://img.shields.io/github/v/release/go-toolsmith/astcast
+[version-url]: https://github.com/go-toolsmith/astcast/releases
