@@ -3,10 +3,9 @@
 [![build-img]][build-url]
 [![pkg-img]][pkg-url]
 [![reportcard-img]][reportcard-url]
-[![coverage-img]][coverage-url]
 [![version-img]][version-url]
 
-Package astcast wraps type assertion operations in such way that you don't have
+Package `astcast` wraps type assertion operations in such way that you don't have
 to worry about nil pointer results anymore.
 
 ## Installation
@@ -100,7 +99,5 @@ func main() {
 [pkg-url]: https://pkg.go.dev/github.com/go-toolsmith/astcast
 [reportcard-img]: https://goreportcard.com/badge/go-toolsmith/astcast
 [reportcard-url]: https://goreportcard.com/report/go-toolsmith/astcast
-[coverage-img]: https://codecov.io/gh/go-toolsmith/astcast/branch/main/graph/badge.svg
-[coverage-url]: https://codecov.io/gh/go-toolsmith/astcast
 [version-img]: https://img.shields.io/github/v/release/go-toolsmith/astcast
 [version-url]: https://github.com/go-toolsmith/astcast/releases
